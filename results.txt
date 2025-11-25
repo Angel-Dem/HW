@@ -1,0 +1,31 @@
+--- STL Container Benchmark (Time in ms, averaged over 10 repeats) ---
+
+N = 8192 elements
+Test                                  vector         deque          list
+Push Back                 0.083ms          0.094ms          0.707ms
+Push Front                 2.534ms          0.150ms          0.761ms
+Random Insert      1.373ms           4.282ms           50.234ms
+Iterate Sum             0.022ms           0.023ms           0.027ms
+Random Access   0.129ms           0.220ms           77.377ms
+
+N = 32768 elements
+Test                                          vector         deque          list
+Push Back                 0.381ms           0.509ms          3.170ms
+Push Front                 41.603ms         0.595ms          3.111ms
+Random Insert      14.757ms         49.138ms          1135.818ms
+Iterate Sum              0.089ms           0.093ms           0.111ms
+Random Access   0.489ms           0.894ms          1385.127ms
+
+N = 262144 elements
+Test                                           vector         deque          list
+Push Back                    2.675ms          3.238ms          24.941ms
+Push Front                  3007.820ms       5.137          23.802ms
+Random Insert     925.757ms       2710.010ms        231571.766ms
+Iterate Sum            0.729ms           0.806ms                1.281ms
+Random Access   4.594ms          7.536ms                 127490.927ms
+
+N = 350000 elements
+Test                         vector         deque          list
+
+PushBack       3.979ms          4.611ms          36.252ms
+PushFront      5508.947ms       5.992ms          31.817ms
