@@ -8,4 +8,5 @@ add_executable(hw_1 main.cpp
         vector.cpp
         example.cpp
         singleton.h
-        tracket_string.h)
+        tracket_string.h
+        wrapper.h)
