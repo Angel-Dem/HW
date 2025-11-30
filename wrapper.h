@@ -18,3 +18,19 @@ public:
     }
 
 };
+
+// class Wrapper {
+// private:
+//     TrackedString first;
+//     TrackedString second;
+//
+// public:
+//     Wrapper(const std::string& s)
+//         : second("SECOND"), first("FIRST")
+//     {
+//         Singleton::getInstance().log(
+//             "[Wrapper ctor] this=" + TrackedString::pointerToString(this),
+//             Singleton::Level::INFO
+//         );
+//     }
+// };

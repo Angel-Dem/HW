@@ -1,17 +1,7 @@
-[16:48:01] [INFO] [default ctor] id= 0 this= 0x97741ffbc0
-[16:48:01] [INFO] [Wrapper ctor A] this=0x97741ffbc0
-[16:48:01] [INFO] [string ctor] id= 0 this= 0x97741ffb20 value=hello
-[16:48:01] [INFO] [dtor] id=0 this=0x97741ffb20
-[16:48:01] [INFO] [default ctor] id= 0 this= 0x97741ffb90
-[16:48:01] [INFO] [Wrapper ctor A] this=0x97741ffb90
-[16:48:01] [INFO] [string ctor] id= 0 this= 0x97741ffb20 value=world
-[16:48:01] [INFO] [dtor] id=0 this=0x97741ffb20
-[16:48:01] [INFO] [dtor] id=0 this=0x97741ffb90
-[16:48:01] [INFO] [dtor] id=0 this=0x97741ffbc0
-Задание B
-[16:51:01] [INFO] [string ctor] id= 0 this= 0x5dc15ffc90 value=hello
-[16:51:01] [INFO] [Wrapper ctor A] this=0x5dc15ffc90
-[16:51:01] [INFO] [string ctor] id= 0 this= 0x5dc15ffc60 value=world
-[16:51:01] [INFO] [Wrapper ctor A] this=0x5dc15ffc60
-[16:51:01] [INFO] [dtor] id=0 this=0x5dc15ffc60
-[16:51:01] [INFO] [dtor] id=0 this=0x5dc15ffc90
+[18:14:38] [INFO] [default ctor] id= 0 this= 0x2e6c9ff680
+[18:14:38] [INFO] [char ctor] id= 0 this= 0x2e6c9ff650 value=hello
+[18:14:38] [INFO] [string ctor] id= 0 this= 0x2e6c9ff600 value=world
+[18:14:38] [INFO] [dtor] id=0 this=0x2e6c9ff5d0
+[18:14:38] [INFO] [dtor] id=0 this=0x2e6c9ff600
+[18:14:38] [INFO] [dtor] id=0 this=0x2e6c9ff650
+[18:14:38] [INFO] [dtor] id=0 this=0x2e6c9ff680
